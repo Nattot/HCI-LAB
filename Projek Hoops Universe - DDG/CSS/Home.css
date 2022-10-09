@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    background-color: #56aea6;
+}
+
+.button{
+    font-size: 23px;
+    background-color: #56aea6;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 50%;
+}
+.logo img{
+    width: 50%;
+}
+.logo:hover{
+    background-color: green;
+}
+
+.searchbar{
+    width: 50%;
+}
+.searchbar img{
+    width: 100%;
+}
+
+.Cart{
+    width: 50%;
+}
+.Cart img{
+    width: 10%;
+}
+.Cart:hover{
+    background-color: green;
+}
+
+.Akun{
+    width: 50%;
+}
+.Akun img{
+    width: 8%;
+}
+.Akun:hover{
+    background-color: green;
+}
+
+.button>ul{
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+.button>ul>li{
+    list-style: none;
+    position: relative;
+    flex: 1;
+}
+.button>ul>li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: block;
+    padding: 10px 5px;
+}
+.button>ul>li:hover{
+    background-color: green;
+}
+.button>ul>li:hover>ul{
+    display: block;
+    background-color: #e4821c;
+}
+
+.line1{
+    display: flex;
+    justify-content: space-between;
+    background-color: #6261a7;
+    padding: 50px;
+}
+.line1 img{
+    width: 450px;
+}
+.line2{
+    display: flex;
+    justify-content: space-between;
+    background-color: #6261a7;
+    padding: 50px;
+}
+.line2 img{
+    width: 450px;
+}
+.line3{
+    display: flex;
+    justify-content: space-between;
+    background-color: #6261a7;
+    padding: 50px;
+}
+.line3 img{
+    width: 450px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #9a9a9a;
+    padding: 40px;
+}
+.footer a{
+    font-size: 20px;
+    color: white;
+}
+}
